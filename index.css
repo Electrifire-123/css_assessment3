@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: gray;
+}
+
+.head{
+    width: 300px;
+    border: 5px solid red;
+    border-radius: 20px;
+    font-family: lato, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+    color: rgb(192, 17, 17);
+    box-shadow: 5px 5px rgb(110, 10, 110);
+    text-shadow: 1px 2px 2px rgb(110, 10, 110);
+    background-color: white;
+    margin: auto;
+}
+
+.hr1{
+    width: 99%;
+    margin: 2px;
+    color: white;
+}
+
+.content{
+    width: 99%;
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px solid green;
+
+}
+
+.box{
+    width: 200px;
+    border: 10px solid red;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    background-color: white;
+    box-shadow: 5px 5px rgb(110, 10, 110);
+    text-shadow: 1px 2px 2px rgb(110, 10, 110);
+}
+
+.top-left{
+    line-height: 40px;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 62%;
+    margin-bottom: 20%;
+    padding-bottom: 30px;
+}
+
+.top-right{
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20%;
+    
+}
+
+.bottom-left{
+    padding-top: 5px;
+    margin-right:62% ;
+}
+
+.bottom-right{
+    text-align: center;
+    float: bottom right;
+    
+}
+
+.bottom-right label{
+    font-size: 15px;
+}
+
+.content2{
+    margin: auto;
+    margin-top:20px;
+    background-color: green;
+    border: 5px solid rgb(111, 10, 114);
+    width: 950px;
+    text-align: center;
+}
+
+.content2 h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mystore{
+    display: inline-block;
+    width: 400px;
+    height: 270px;
+    background-color: yellow;
+    font-style: italic;
+    padding: 10px;
+    line-height: 50px;
+    margin: 2px;
+    padding: 20px;
+}
+
+.fruits{
+    margin-left: 0px;
+
+    
+}
+.vegetable{
+    margin-right: 0px;
+}
+
+.other{
+    margin-top: 10px;
+    height: 270px;
+    background-color: yellow;
+    font-style: italic;
+    padding: 10px;
+    line-height: 50px;
+}
+
+/* for popup */
+
+.popup{
+    background-color: greenyellow;
+    width: 440px;
+    border: 10px solid red;
+    border-radius: 20px;
+    position: fixed;
+    top: 80%;
+    left: 34%;
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(121, 22, 22);
+    font-style: italic;
+}
+
+#offer{
+    padding-right: 10px;
+    text-align: center;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+#discount{
+    padding-right: 10px;
+    text-align: center;
+    width: 120px;
+    font-weight: bold;
+}
